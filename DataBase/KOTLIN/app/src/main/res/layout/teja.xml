@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:weightSum="10">
+    <TextView
+            android:id="@+id/tgNami"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StudentName"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+    <TextView
+            android:id="@+id/tgJenkis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CollegeName"
+            android:textSize="17sp"/>
+    <TextView
+            android:id="@+id/gvHungry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll number"
+            android:textSize="17sp"/>
+
+</LinearLayout>
